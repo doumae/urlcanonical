@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>URL canonical</title>
+    <link rel="stylesheet" href="lit.css" type="text/css">
+    <link rel="stylesheet" href="popup.css" type="text/css">
+  </head>
+  <body class="c">
+    <div class="head">URL canonical</div>
+    <div class="row"><div class="col">
+	    <p>title: <span id="title">...</span></p>
+	    <p>url: <span id="url">...</span></p>
+	</div></div>
+    <hr>
+    <div class="row"><div class="col">
+	    <textarea id="buffer" class="w-100"></textarea>
+	</div></div>
+    <div class="row buttons"><div class="col">
+        <button class="btn" id="btn-text">Text</button>
+        <button class="btn" id="btn-markdown">Markdown</button>
+        <button class="btn" id="btn-html">HTML</button>
+		<button class="btn primary btn-clipboard" data-clipboard-target="#buffer">copy</button>
+	</div></div>
+    <!-- Load JavaScript-->
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="clipboard.min.js"></script>
+    <script src="popup.js"></script>
+  </div>
+  </body>
+</html>

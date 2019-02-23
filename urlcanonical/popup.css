@@ -1,0 +1,16 @@
+body {
+    width: 420px;
+    height: 220px;
+    background-color: #ffffff;
+    min-width: 357px;
+    overflow-x: hidden;
+}
+
+textarea#buffer {
+	width: 360px;
+	height: 60px;
+}
+
+#buttons button {
+	text-align: right;
+}
